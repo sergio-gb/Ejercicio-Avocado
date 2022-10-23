@@ -58,14 +58,12 @@ img {
     width: 3rem;
 }
 
-
 .titulo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1.88rem;
     padding: 1.25rem;
-
 }
 
 .titulo img {
@@ -89,7 +87,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.88rem;
+    gap: 1.25rem;
     margin: 0.63rem 0;
 }
 
@@ -106,26 +104,9 @@ article {
 }
 
 h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 1.13rem;
+    margin-bottom: 0.32rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*=================================================== RESPONSIVE =====*/
@@ -146,4 +127,3 @@ h4 {
         width: 1170px;
     }
 }
-

@@ -11,4 +11,3 @@ appendAvocado(container, avo1)
 
 const avo2 = new Avocado ("Maluma has avocado", "assets/images/maluma.png", 1.15)
 appendAvocado(container, avo2)
-
