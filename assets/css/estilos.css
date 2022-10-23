@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.mainheader {
+    width: 100%;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.94rem;
+    padding-right: 0.94rem;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: #f2f2f2;
+    display: inline-flex;
+    padding: 1.25rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 2.6rem;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    gap: 0.63rem;
+}
+
+.carrito img {
+    width: 3rem;
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.88rem;
+    padding: 1.25rem;
+
+}
+
+.titulo img {
+    width: 4.40rem;
+}
+
+.titulo p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 1.1rem;
+    color: #5495d5;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.88rem;
+    margin: 0.63rem 0;
+}
+
+article {
+    padding: 0.32rem;
+    background-color: #f2f2f2;
+    width: 20rem;
+}
+
+.text {
+    padding: 0.65rem;
+    background-color: #fff;
+    margin-top: 0.44rem;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================================================== RESPONSIVE =====*/
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
