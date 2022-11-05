@@ -10,7 +10,7 @@ function appendAvocado(container, avocado) {
 
   
   const image = document.createElement("img") 
-  image.src = avocado.image
+  image.src = "https://platzi-avo.vercel.com/api" + avocado.image
 
   const name = document.createElement("h4")
   name.textContent = avocado.name
